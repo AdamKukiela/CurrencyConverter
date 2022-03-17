@@ -1,0 +1,17 @@
+.convert-window {
+  position: absolute;
+  background-color: cornflowerblue;
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  top: 90px;
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.currency-row {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}

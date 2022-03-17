@@ -1,0 +1,8 @@
+.exchange-rates {
+  height: 200px;
+  width: 500px;
+  background-color: cornflowerblue;
+  position: absolute;
+  border-radius: 10px;
+  top: 210px;
+}

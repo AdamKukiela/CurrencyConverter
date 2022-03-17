@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { ConvertWindow } from "./components/ConvertWindow/ConvertWind/ConvertWindow";
+// import { ExchangeRates } from "./components/ConvertWindow/ExchangeRates/ExchangeRates";
 
-function App() {
+
+
+
+function App(): JSX.Element {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="title">
+        <h3>Cosmic Currency Converter 3C</h3>
+      </div>
+      <div>
+      <video
+        className="background-app"
+        src={"background to currency converter.mp4"}
+        autoPlay
+        loop
+        muted
+      ></video>
+      </div>
+      
+
+      <ConvertWindow />
+      {/* <ExchangeRates /> */}
     </div>
   );
 }
